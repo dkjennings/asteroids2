@@ -734,7 +734,8 @@ Coin = function () {
   this.newValue = function () {
     this.value = Math.floor(Math.random() * 10 + 1) * 10;
   }
-
+  this.color    = "#ffd700";
+  this.solid    = true;
   this.setup = function () {
     this.newPosition();
     this.newValue();
